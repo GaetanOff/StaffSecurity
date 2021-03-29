@@ -1,0 +1,5 @@
+name: StaffSecurity
+author: Gaetan_Off
+website: https://github.com/GaetanOff/StaffSecurity
+version: 0.1-SNAPSHOT
+main: com.gaetan.staffsecurity.SecurityPlugin

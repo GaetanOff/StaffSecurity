@@ -1,0 +1,28 @@
+#Lang message
+lang:
+  help:
+    - ""
+    - "&6&lSecurity &7&o(Gaetan#0001)"
+    - ""
+    - "&e/security &7- Show the commands."
+    - "&e/security addop <player> &7- Add an op the safe list."
+    - "&e/security removeop <player>  &7- Remove an op the safe list."
+    - ""
+  not_console: "&cYou have to execute this command with the CONSOLE."
+  op:
+    add: "You just added %s to the safe op list."
+    is_already: "%s is already in the safe op list."
+    remove: "You just removed %s to the safe op list."
+    is_not: "%s is not in the safe op list."
+
+#Commands executed
+command:
+  op_detected: "kick %s You are not in the list."
+
+
+#Time to check players in seconds
+#List of operators players
+op:
+  time: 5
+  list:
+    - GaetanOff
